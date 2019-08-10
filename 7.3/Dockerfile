@@ -7,7 +7,7 @@ ARG PHP_VER=7.3.8
 ARG LIBICONV_VERSION=1.16
 
 LABEL description="nginx + php image based on Alpine" \
-      maintainer="Wonderfall <wonderfall@targaryen.house>" \
+      maintainer="MiguelNdeCarvalho <geral@miguelndecarvalho.pt>" \
       php_version="PHP v$PHP_VER built from source" \
       nginx_version="nginx v$NGINX_VER built from source"
 
