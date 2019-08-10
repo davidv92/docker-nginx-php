@@ -3,7 +3,7 @@ FROM alpine:3.10.1
 ARG BUILD_CORES
 
 ARG NGINX_VER=1.17.2
-ARG PHP_VER=7.2.16
+ARG PHP_VER=7.3.8
 ARG LIBICONV_VERSION=1.15
 
 LABEL description="nginx + php image based on Alpine" \
@@ -11,7 +11,7 @@ LABEL description="nginx + php image based on Alpine" \
       php_version="PHP v$PHP_VER built from source" \
       nginx_version="nginx v$NGINX_VER built from source"
 
-ARG PHP_MIRROR=http://ch1.php.net
+ARG PHP_MIRROR=http://ch1.php.net   
 
 ARG NGINX_CONF=" \
     --prefix=/nginx \
