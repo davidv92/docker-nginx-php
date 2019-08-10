@@ -105,7 +105,8 @@ ARG CUSTOM_BUILD_PKGS=" \
     openssl-dev \
     libbz2 \
     sqlite-dev \
-    imap-dev"
+    imap-dev \
+    libzip-dev"
 
 ARG CUSTOM_PKGS=" \
     freetype \
