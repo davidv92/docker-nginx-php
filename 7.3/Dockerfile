@@ -1,4 +1,4 @@
-FROM alpine:3.10.2
+FROM alpine:latest
 
 ARG BUILD_CORES
 
